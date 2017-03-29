@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="60dp"
+    android:paddingLeft="30dp"
+    tools:context="com.example.aakansha.bawleeurja.Register"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name Of NGO     : "
+        android:textSize="18dp"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_marginLeft="100dp"
+        android:hint="            ngo name"
+        android:id="@+id/name1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="40dp"
+        android:text="NGO Head            : "
+        android:textSize="18dp"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="40dp"
+        android:hint="            ngo head name"
+        android:id="@+id/address1"
+        android:textSize="18dp"
+        android:layout_marginLeft="100dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address                :"
+        android:paddingTop="80dp"
+        android:textStyle="bold"
+        android:textSize="18dp"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="80dp"
+        android:textSize="18dp"
+        android:hint="             address"
+        android:id="@+id/phone1"
+        android:layout_marginLeft="100dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E-mail                    :"
+        android:paddingTop="120dp"
+        android:textSize="18dp"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="             email"
+        android:id="@+id/email1"
+        android:paddingTop="120dp"
+        android:textSize="18dp"
+        android:layout_marginLeft="100dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Starting year        :"
+        android:paddingTop="160dp"
+        android:textSize="18dp"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="             starting year"
+        android:id="@+id/college1"
+        android:paddingTop="160dp"
+        android:textSize="18dp"
+        android:layout_marginLeft="100dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="240dp"
+        android:text="Contact Number  :"
+        android:textSize="18dp"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="240dp"
+        android:hint="              contact no."
+        android:id="@+id/year1"
+        android:textSize="18dp"
+        android:layout_marginLeft="100dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No. Of People       :"
+        android:paddingTop="200dp"
+        android:layout_gravity="left|top"
+        android:textSize="18dp"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="             total no of people"
+        android:id="@+id/branch1"
+        android:paddingTop="200dp"
+        android:layout_gravity="left|top"
+        android:textSize="18dp"
+        android:layout_marginLeft="100dp"/>
+
+    <Button
+        android:layout_width="320dp"
+        android:text="Register"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:id="@+id/submit"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"/>
+
+</FrameLayout>

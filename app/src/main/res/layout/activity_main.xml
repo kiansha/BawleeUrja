@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aakansha.bawleeurja.MainActivity">
+
+    <ImageView
+
+        android:layout_marginTop="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/signin"
+        android:id="@+id/userSignIn"
+        >
+    </ImageView>
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/ngofront"
+        android:id="@+id/ngoSignIn">
+    </ImageView>
+
+
+
+
+</LinearLayout>
